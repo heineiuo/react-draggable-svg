@@ -59,8 +59,6 @@ const DraggableSVG = (tagName) => {
 
     createCloneElement = (data) => {
       const { clientX, clientY, x, y } = data.event
-      console.log(data.event)
-      console.log(JSON.stringify({ clientX, clientY, x, y }))
       const dragEl = document.createElement('div')
       dragEl.style.position = 'fixed'
       dragEl.style.zIndex = 99999
