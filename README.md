@@ -12,7 +12,7 @@ npm i react-draggable-svg
 import React, { Component } from 'react'
 import DraggableSVG from 'react-draggable-svg'
 
-ReactDOM.reander(
+ReactDOM.render(
   <svg>
     <DraggableSVG.g
      onDragStart={() => console.log('drag start'))}
